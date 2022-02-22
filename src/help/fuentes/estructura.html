@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.10  (Win32)">
+	<META NAME="AUTHOR" CONTENT="Fran Dominguez">
+	<META NAME="CREATED" CONTENT="20220209;14322981">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<META NAME="CHANGED" CONTENT="20220215;11181632">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<META NAME="CHANGEDBY" CONTENT="Fran Dominguez">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2cm }
+		P { margin-bottom: 0.21cm }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-ES" DIR="LTR">
+<P ALIGN=CENTER STYLE="margin-bottom: 0cm"><FONT SIZE=5 STYLE="font-size: 20pt"><B>Base
+de datos</B></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=4 STYLE="font-size: 16pt">Estructura
+de las tablas de la base de datos y sus tipo de datos, subrayando el
+campo principal (Primary Key) de cada tabla:</FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=4 STYLE="font-size: 16pt"><SPAN STYLE="font-weight: normal">PROVINCIA</SPAN></FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt"><U>Nombre:</U><SPAN STYLE="text-decoration: none">
+		Cadena de caracteres (obligatorio, m&aacute;x. 20 caracteres) </SPAN></FONT>
+		</P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Pa&iacute;s:
+		Cadena de caracteres (m&aacute;x. 20 caracteres)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Comunidad
+		Aut&oacute;noma: Cadena de caracteres (m&aacute;x. 20 caracteres)</FONT></P>
+	</UL>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=4 STYLE="font-size: 16pt">PERSONA</FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt"><U>DNI:</U><SPAN STYLE="text-decoration: none">
+		Cadena de caracteres (obligatorio, m&aacute;x. 9 caracteres)</SPAN></FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Nombre:
+		Cadena de caracteres (obligatorio, m&aacute;x. 20 caracteres)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Apellidos:
+		Cadena de caracteres (m&aacute;x. 20 caracteres)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Direcci&oacute;n:
+		Cadena de caracteres (m&aacute;x. 50 caracteres)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Localidad:
+		Cadena de caracteres (m&aacute;x. 20 caracteres)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Provincia:
+		Seleccionable</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Tel&eacute;fono:
+		Num&eacute;rico (restringido a n&uacute;meros enteros)</FONT></P>
+	</UL>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=4 STYLE="font-size: 16pt">RESERVA
+	HABITACI&Oacute;N</FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt"><U>C&oacute;digo
+		de la habitaci&oacute;n:</U><SPAN STYLE="text-decoration: none">
+		Num&eacute;rico auto-generado</SPAN></FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">DNI
+		del Cliente: <SPAN STYLE="text-decoration: none">Cadena de
+		caracteres (obligatorio, m&aacute;x. 9 caracteres)</SPAN></FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Fecha
+		de llegada: Fecha seleccionable (obligatorio)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Fecha
+		de salida: Fecha seleccionable(obligatorio)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">R&eacute;gimen:
+		Seleccionable</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">N&uacute;mero
+		de habitaciones: Num&eacute;rico (obligatorio, restringido a
+		n&uacute;meros enteros)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Tipo
+		de habitaciones: S<SPAN STYLE="text-decoration: none">eleccionable</SPAN></FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Fumador:
+		Seleccionable</FONT></P>
+	</UL>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=4 STYLE="font-size: 16pt">RESERVA
+	SAL&Oacute;N</FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt"><U>C&oacute;digo
+		del sal&oacute;n:</U><SPAN STYLE="text-decoration: none"> num&eacute;rico
+		auto-generado</SPAN></FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">DNI
+		del Cliente: <SPAN STYLE="text-decoration: none">Cadena de
+		caracteres (obligatorio, m&aacute;x. 9 caracteres)</SPAN></FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Tipo
+		del evento: Seleccionable (obligatorio)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">N&uacute;mero
+		de personas: Num&eacute;rico (obligatorio, restringido a n&uacute;meros
+		enteros)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Tipo
+		de cocina: Seleccionable</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Fecha
+		del evento: Fecha seleccionable (obligatorio)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">Habitaciones:
+		Seleccionable</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">N&uacute;mero
+		de habitaciones: Num&eacute;rico (restringido a n&uacute;meros
+		enteros)</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt">N&uacute;mero
+		de d&iacute;as: Num&eacute;rico (restringido a n&uacute;meros
+		enteros)</FONT></P>
+	</UL>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=4 STYLE="font-size: 16pt">TIPO
+	COCINA</FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt"><U>Nombre:</U><SPAN STYLE="text-decoration: none">
+		Cadena de caracteres (obligatorio, m&aacute;x. 50 caracteres)</SPAN></FONT></P>
+	</UL>
+</UL>
+<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=4 STYLE="font-size: 16pt">TIPO
+	HABITACI&Oacute;N</FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm; font-weight: normal"><FONT SIZE=3 STYLE="font-size: 13pt"><U>Nombre:</U><SPAN STYLE="text-decoration: none">
+		Cadena de caracteres (obligatorio, m&aacute;x. 50 caracteres)</SPAN></FONT></P>
+	</UL>
+</UL>
+</BODY>
+</HTML>
